@@ -1,6 +1,6 @@
 /* ====================Landing Page==================== */
 
-body, #index {
+#index {
     background-image: url("../images/AXD-mockUp/backgroundx2.png");
     background-position: center center;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@ footer {
 }
 
 .indexHeader {
-    margin: 10% 0;
+    margin: 15% 0;
     font-size: 118px;
     text-align: center;
 }
@@ -44,4 +44,27 @@ footer {
 
 .linkTop {
     margin-top: 2%;
+}
+
+/* ====================Nav Bar==================== */
+
+.navHeader {
+    padding: 0;
+    height: 160px;
+    background-color: #607D8B;
+}
+
+.navLink {
+    margin: 25px 0px 0px 25px;
+}
+
+.navTitle {
+    font-family: 'Amiri', serif;
+    color: #ECEFF1;
+    font-size: 58px;
+}
+
+.navTitle:hover {
+    text-decoration: none;
+    color: #ECEFF1;
 }
