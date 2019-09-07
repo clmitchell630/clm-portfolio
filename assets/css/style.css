@@ -1,10 +1,44 @@
 body, #index {
-
-    background-image: url("../images/AXD-mockUp/background-x2.png");
+    background-image: url("../images/AXD-mockUp/backgroundx2.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-color: #263238;
+    color: #FF5722;
+    font-family: 'Roboto', sans-serif;
+}
 
+footer {
+    left: 30px;
+    bottom: 2px;
+    position: fixed;
+    background-color: transparent;
+}
+
+.linkStyle {
+    font-size: 18px;
+    color: #ECEFF1;
+}
+
+.linkStyle:hover {
+    color: #263238;
+}
+
+.linkSpacer {
+    margin: 2px 10px;
+}
+
+.indexHeader {
+    margin: 10% 0;
+    font-size: 118px;
+    text-align: center;
+}
+
+.indexSubhead {
+    font-size: 26px;
+    text-align: center;
+}
+.linkTop{
+    margin-top: 2%;
 }
