@@ -13,7 +13,7 @@
 
 footer {
     left: 30px;
-    bottom: 2px;
+    bottom: 10px;
     position: fixed;
     background-color: transparent;
 }
@@ -27,8 +27,19 @@ footer {
     color: #263238;
 }
 
-.linkSpacer {
+.linkRound {
     margin: 2px 10px;
+    background-color: #FF7043;
+    border-radius: 50px;
+    color: #ECEFF1;
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+}
+
+.linkRound:hover {
+    background-color: #ECEFF1;
+    color: #FF7043;
 }
 
 .indexHeader {
@@ -50,12 +61,7 @@ footer {
 
 .navHeader {
     padding: 0;
-    height: 160px;
     background-color: #607D8B;
-}
-
-.navLink {
-    margin: 25px 0px 0px 25px;
 }
 
 .navTitle {
@@ -67,4 +73,33 @@ footer {
 .navTitle:hover {
     text-decoration: none;
     color: #ECEFF1;
+}
+
+.navLink {
+    margin: 2px 10px;
+    color: #ECEFF1;
+    padding: 0;
+    font-size: 24px;
+}
+
+.navLink:hover {
+    color: #263238;
+}
+
+.buttonPosition {
+    position: relative;
+    bottom: -35px;
+}
+
+.btnStyle {
+    margin: 2px 10px;
+    background-color: #FF7043;
+    border-radius: 50px;
+    color: #ECEFF1;
+    width: 120px;
+}
+
+.btnStyle:hover {
+    background-color: #ECEFF1;
+    color: #FF7043;
 }
