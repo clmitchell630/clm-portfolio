@@ -1,6 +1,6 @@
 $(function () {
 
-    var URL = "clmitchell630.github.io/"
+    var URL = "https://clmitchell630.github.io/"
     var appObj = {
         data: [
             {
