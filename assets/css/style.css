@@ -164,4 +164,5 @@ img{
 
 .thumbSize {
     width: 200px;
+    border-radius: 0;
 }
