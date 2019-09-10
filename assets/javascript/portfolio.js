@@ -20,7 +20,7 @@ $(function () {
                 src: URL + "gif-in-a-jiff",
                 img: "./assets/images/appImg/GifJiff.png",
                 description: "A practive in AJAX calls using the Giphy API to create a page of .gif images responding to a topic stored in a button. Default buttons are provided but you can add more by adding them to the 'MORE GIFS!' field."
-            }
+            },
             {
                 id: "TV Trivia Time!",
                 src: URL + "TriviaGame",
