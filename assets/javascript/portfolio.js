@@ -4,6 +4,12 @@ $(function () {
     var appObj = {
         data: [
             {
+                id:"Liri Bot",
+                src: "https://github.com/clmitchell630/liri-bot",
+                img: "./assets/images/appImg/liribot.png",
+                description: "By inputting your your favorite artist into liri you can find the venues that they are playing in, where those venues are, and what date/time the event is occuring. If you give liri a track, it will list songs from a variety of arists that meet your search term and give you a link to listen to the song. Finally, if you give liri a movie title, it will list information about the movie from where it was produced to what the ratings for the movie were."
+            },
+            {
                 id: "Wiki-Werks",
                 src: URL + "wiki-werks",
                 img: "./assets/images/appImg/projectone.png",
