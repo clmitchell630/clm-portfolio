@@ -4,6 +4,12 @@ $(function () {
     var appObj = {
         data: [
             {
+                id:"Bamazon",
+                src: "https://github.com/clmitchell630/product-manager",
+                img: "./assets/images/appImg/bamazon.png",
+                description: "This app utilizes CLI, Node.js, and mySQL to allow the user to view a list of available items, select which one they'd like to 'purchase', and select the quantity they'd like. Doing so will let the user know the quantity of the item they 'purchased' and the total price of the transaction."
+            },
+            {
                 id:"Liri Bot",
                 src: "https://github.com/clmitchell630/liri-bot",
                 img: "./assets/images/appImg/liribot.png",
