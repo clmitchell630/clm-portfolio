@@ -4,6 +4,12 @@ $(function () {
     var appObj = {
         data: [
             {
+                id:"Friendspace",
+                src: "https://fierce-caverns-64082.herokuapp.com/",
+                img: "./assets/images/appImg/friendspace.png",
+                description: "This webapp helps you find new friends!.. sorta. Using Node.js and Heroku to host, Friendspace is an exercise in creating a webapp with a server."
+            }
+            {
                 id:"Bamazon",
                 src: "https://github.com/clmitchell630/product-manager",
                 img: "./assets/images/appImg/bamazon.png",
