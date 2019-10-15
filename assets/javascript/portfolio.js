@@ -4,6 +4,12 @@ $(function () {
     var appObj = {
         data: [
             {
+                id:"BurgerBurger",
+                src: "https://whispering-falls-89513.herokuapp.com/",
+                img: "./assets/images/appImg/burgerburger.jpg",
+                description: "Simple burger eating app that makes you hungry while playing! Utilizes MySQL, Node.js, npm Express, npm Handlebars, npm mysql, and utilizes Heroku to host. BurgerBurger is an exercise in creating a webapp with a server and a database."
+            },
+            {
                 id:"Friendspace",
                 src: "https://fierce-caverns-64082.herokuapp.com/",
                 img: "./assets/images/appImg/friendspace.png",
