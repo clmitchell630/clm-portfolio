@@ -134,9 +134,9 @@ img{
     padding: 50px 30px;
 
 }
-.altr a, .altr a :hover {
-    color: #263238;
-    text-decoration: none;
+.altr, .altr :hover {
+    color: #2d7396;
+    margin: 0 0 0 10px;
 }
 
 .altr:hover {
