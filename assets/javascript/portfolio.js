@@ -5,6 +5,13 @@ $(function () {
     var appObj = {
         data: [
             {
+                id: "News'Crepe",
+                src: "https://news-crepe.herokuapp.com/",
+                git: gitURL + "news-s-crepe",
+                img: "./assets/images/appImg/newscrepe.png",
+                description: "A gaming news app that scrapes articles from pcgamer to help sort what you want to read!"
+            },
+            {
                 id: "Happy Little Trees",
                 src: "https://floating-retreat-86405.herokuapp.com/",
                 git: gitURL + "Meshugga",
