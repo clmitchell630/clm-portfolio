@@ -5,6 +5,13 @@ $(function () {
     var appObj = {
         data: [
             {
+                id: "Rorschach Clicker",
+                src: URL + "clicky-game",
+                git: gitURL + "clicky-game",
+                img: "./assets/images/appImg/rorschachclicker.png",
+                description: "A memory game made with React where you try to click all the images and gain points! If you click the same image twice, you lose... made especially difficult because the images are Rorschach inkblots! "
+            },
+            {
                 id: "News'Crepe",
                 src: "https://news-crepe.herokuapp.com/",
                 git: gitURL + "news-s-crepe",
